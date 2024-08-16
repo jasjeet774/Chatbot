@@ -1,6 +1,6 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+916363549133'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'></label></label></div> </a> <a href='mailto:varshithvh@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Varshithvhegde'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/916363549133'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''>";
-var resumeString = "<img src='images/resume_thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Varshith V Hegde Resume.pdf</label></div><a href='assets/varshith_v_hegde_resume.pdf' download='varshith_v_hegde_resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+916363549133'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/><label class='number'></label></label></div> </a> <a href='mailto:Jasjeetvh@gmail.com'> <div class='socialItem'><img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Jasjeetvhegde'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/916363549133'> <div class='socialItem'><img class='socialItemI' src='images/whatsapp.svg' alt=''>";
+var resumeString = "<img src='images/resume_thumbnail.png' class='resumeThumbnail'><div class='downloadSpace'><div class='pdfname'><img src='images/pdf.png'><label>Jasjeet Resume.pdf</label></div><a href='assets/Jasjeet_v_hegde_resume.pdf' download='Jasjeet_v_hegde_resume.pdf'><img class='download' src='images/downloadIcon.svg'></a></div>";
 var addressString = "<div class='mapview'><iframe src='https://www.google.com/maps/dir//Moodbidri+private+Bus+Stand,+Bus+Stand+Rd,+Mudbidri,+Karnataka+574227/@13.0639,74.9991985,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3ba4ab3d49331379:0x17be05cb5b69caa2!2m2!1d74.9957298!2d13.0680955?hl=en' class='map'></iframe></div><label class='add'><address>B2 'Asara'<br>Kodoli<br>Kolhapur, Maharashtra, INDIA 416114</address>";
 
 function startFunction() {
@@ -113,7 +113,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(contactString);
             break;
         case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Varshithvhegde'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Jasjeetvhegde'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
         case "time":
             var date = new Date();
@@ -145,28 +145,28 @@ function waitAndResponce(inputText) {
             break;
        
 
-        case "varshith":
+        case "Jasjeet":
             sendTextMessage("Yes, that's me");
             break;
-        case "varshith hegde":
+        case "Jasjeet":
             sendTextMessage("Yes, that's me");
             break;
-        case "varshith v hegde":
+        case "Jasjeet v hegde":
             sendTextMessage("Yes, that's me");
             break;
         
         case "website":
-            sendTextMessage("You can check my website here <a target='_blank' href='https://varshithvhegde.github.io/'>Varshith Hegde</a>");
+            sendTextMessage("You can check my website here <a target='_blank' href='https://Jasjeetvhegde.github.io/'>Jasjeet</a>");
             break;
         case "blog":
-            sendTextMessage("You can check my blog here <a target='_blank' href='https://varshithvhegde.github.io/hugo-blog'>Varshith Hegde</a>");
+            sendTextMessage("You can check my blog here <a target='_blank' href='https://Jasjeetvhegde.github.io/hugo-blog'>Jasjeet</a>");
             break;
         
         case "github":
-            sendTextMessage("You can check my github here <a target='_blank' href='https://github.com/Varshithvhegde'>Varshith Hegde</a>");
+            sendTextMessage("You can check my github here <a target='_blank' href='https://github.com/Jasjeetvhegde'>Jasjeet</a>");
             break;
         case "linkedin":
-            sendTextMessage("You can check my linkedin here <a target='_blank' href='https://www.linkedin.com/in/varshithvhegde'>Varshith Hegde</a>");
+            sendTextMessage("You can check my linkedin here <a target='_blank' href='https://www.linkedin.com/in/Jasjeetvhegde'>Jasjeet</a>");
             break;
         case "friends":
         case "friend":
